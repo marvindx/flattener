@@ -8,7 +8,7 @@ const readline = require('readline');
 const cwd = process.cwd()
 
 const program = new commander.Command();
-const defaultFlatPath = path.join(cwd, "full/");
+const defaultFlatPath = path.join(cwd, "flat/");
 const licenseStr = "SPDX-License-Identifier: MIT";
 
 async function processLineByLine(filePath) {
